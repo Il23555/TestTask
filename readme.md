@@ -1,3 +1,8 @@
+
+### Тестовое задание
+
+Ссылка на модель и ноутбук https://drive.google.com/drive/folders/1u2iPOKSvESacJSdRFa-X-Xbou3P3KT4G?usp=sharing 
+
 ### Run App
 ```bash
 python start.py
@@ -7,12 +12,12 @@ python start.py
 
 Build docker image 
 ```bash
-docker build -t my_app .
+docker build -t <app name> .
 ```
 
 Run docker container
 ```bash
-docker run -d -p 5000:5000 my_app
+docker run -d -p 5000:5000 <app name>
 ```
 
-Send POST-request with car's image to http://localhost/5000
+Send POST-request with car image to http://localhost/5000
