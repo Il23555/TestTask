@@ -3,9 +3,10 @@
 
 Ссылка на модель и ноутбук https://drive.google.com/drive/folders/1u2iPOKSvESacJSdRFa-X-Xbou3P3KT4G?usp=sharing 
 
+### Run App
+
 Расположить модель в model/files/
 
-### Run App
 ```bash
 python start.py
 ```
